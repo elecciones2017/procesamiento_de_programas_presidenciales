@@ -44,7 +44,8 @@ if(!file.exists("01_2_processed_documents/words_guillier.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "guillier") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_guillier = words_guillier %>%
     count(word, sort = TRUE)
@@ -69,7 +70,8 @@ if(!file.exists("01_2_processed_documents/words_navarro.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "navarro") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_navarro = words_navarro %>%
     count(word, sort = TRUE)
@@ -94,7 +96,8 @@ if(!file.exists("01_2_processed_documents/words_sanchez.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "sanchez") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_sanchez = words_sanchez %>%
     count(word, sort = TRUE)
@@ -119,7 +122,8 @@ if(!file.exists("01_2_processed_documents/words_goic.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "goic") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_goic = words_goic %>%
     count(word, sort = TRUE)
@@ -129,56 +133,6 @@ if(!file.exists("01_2_processed_documents/words_goic.csv")) {
   words_goic = read_csv("01_2_processed_documents/words_goic.csv")
   
   top_words_goic = words_goic %>%
-    count(word, sort = TRUE)
-}
-
-#############
-
-if(!file.exists("01_2_processed_documents/words_enriquez.csv")) {
-  text_enriquez = pdf_text("01_1_raw_documents/Programa_Gobierno_Marco_Enriquez-Ominami.pdf")
-  
-  words_enriquez = text_enriquez %>% 
-    iconv() %>%
-    tibble() %>%
-    setNames(., "text") %>%
-    mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "enriquez") %>% 
-    unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
-  
-  top_words_enriquez = words_enriquez %>%
-    count(word, sort = TRUE)
-  
-  write_csv(words_enriquez,"01_2_processed_documents/words_enriquez.csv")
-} else {
-  words_enriquez = read_csv("01_2_processed_documents/words_enriquez.csv")
-  
-  top_words_enriquez = words_enriquez %>%
-    count(word, sort = TRUE)
-}
-
-#############
-
-if(!file.exists("01_2_processed_documents/words_enriquez.csv")) {
-  text_enriquez = pdf_text("01_1_raw_documents/Programa_Gobierno_Marco_Enriquez-Ominami.pdf")
-  
-  words_enriquez = text_enriquez %>% 
-    iconv() %>%
-    tibble() %>%
-    setNames(., "text") %>%
-    mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "enriquez") %>% 
-    unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
-  
-  top_words_enriquez = words_enriquez %>%
-    count(word, sort = TRUE)
-  
-  write_csv(words_enriquez,"01_2_processed_documents/words_enriquez.csv")
-} else {
-  words_enriquez = read_csv("01_2_processed_documents/words_enriquez.csv")
-  
-  top_words_enriquez = words_enriquez %>%
     count(word, sort = TRUE)
 }
 
@@ -194,7 +148,8 @@ if(!file.exists("01_2_processed_documents/words_artes.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "artes") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_artes = words_artes %>%
     count(word, sort = TRUE)
@@ -204,6 +159,33 @@ if(!file.exists("01_2_processed_documents/words_artes.csv")) {
   words_artes = read_csv("01_2_processed_documents/words_artes.csv")
   
   top_words_artes = words_artes %>%
+    count(word, sort = TRUE)
+}
+
+#############
+
+if(!file.exists("01_2_processed_documents/words_enriquez.csv")) {
+  text_enriquez = pdf_text("01_1_raw_documents/Programa_Gobierno_Marco_Enriquez-Ominami.pdf")
+  
+  words_enriquez = text_enriquez %>% 
+    iconv() %>%
+    tibble() %>%
+    setNames(., "text") %>%
+    mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
+           candidato =  "enriquez") %>% 
+    unnest_tokens(word, text) %>% 
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
+  
+  top_words_enriquez = words_enriquez %>%
+    count(word, sort = TRUE)
+  
+  write_csv(words_enriquez,"01_2_processed_documents/words_enriquez.csv")
+} else {
+  words_enriquez = read_csv("01_2_processed_documents/words_enriquez.csv") %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
+  
+  top_words_enriquez = words_enriquez %>%
     count(word, sort = TRUE)
 }
 
@@ -219,7 +201,8 @@ if(!file.exists("01_2_processed_documents/words_kast.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "kast") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_kast = words_kast %>%
     count(word, sort = TRUE)
@@ -262,7 +245,8 @@ if(!file.exists("01_2_processed_documents/words_pinera.csv")) {
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
            candidato =  "pinera") %>% 
     unnest_tokens(word, text) %>% 
-    anti_join(stopwords_es)
+    anti_join(stopwords_es) %>% 
+    mutate(word = str_extract(word, "[a-z]+"))
   
   top_words_pinera = words_pinera %>%
     count(word, sort = TRUE)
