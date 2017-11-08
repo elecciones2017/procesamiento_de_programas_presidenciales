@@ -1,0 +1,77 @@
+---
+title: "02_plots"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = F, error = F, warning = F, comment = NA, fig.align = 'center', dpi = 100, fig.width=9, fig.height=8, tidy = F, cache = T, dev = 'CairoPNG')
+```
+
+```{r plots01}
+if (!require("pacman")) install.packages("pacman")
+p_load(readr,dplyr,tidyr,tidytext,ggplot2,viridis,ggstance,stringr,scales)
+p_load_gh("dgrtwo/widyr")
+
+words_all = read_csv("01_2_processed_documents/words_all.csv")
+
+plot_tfidf <- words_all %>%
+  arrange(desc(tf_idf)) %>%
+  mutate(word = factor(word, levels = rev(unique(word))))
+
+plot_tfidf <- plot_tfidf %>% group_by(candidate) %>% top_n(15) %>% ungroup()
+
+ggplot(plot_tfidf, aes(tf_idf, word, fill = candidate, alpha = tf_idf)) +
+  geom_barh(stat = "identity", show.legend = FALSE) +
+  labs(title = "Top de palabras por candidato",
+       y = NULL, x = "tf-idf") +
+  facet_wrap(~candidate, nrow = 3, scales = "free") +
+  theme_minimal(base_size = 13) +
+  scale_alpha_continuous(range = c(0.6, 1)) +
+  scale_x_continuous(expand=c(0,0)) +
+  scale_fill_viridis(end = 0.85, discrete=TRUE) +
+  theme(strip.text=element_text(hjust=0)) +
+  theme(strip.text = element_text(face = "italic"))
+```
+
+```{r plots02}
+words_artes = read_csv("01_2_processed_documents/words_artes.csv")
+words_enriquez = read_csv("01_2_processed_documents/words_enriquez.csv")
+words_goic = read_csv("01_2_processed_documents/words_goic.csv")
+words_guillier = read_csv("01_2_processed_documents/words_guillier.csv")
+words_kast = read_csv("01_2_processed_documents/words_kast.csv")
+words_navarro = read_csv("01_2_processed_documents/words_navarro.csv")
+words_sanchez = read_csv("01_2_processed_documents/words_sanchez.csv")
+words_pinera = read_csv("01_2_processed_documents/words_pinera.csv")
+
+words_others = bind_rows(words_artes,words_enriquez,words_goic,words_guillier,words_kast,words_navarro,words_sanchez)
+
+frequency = words_others %>%
+  mutate(word = str_extract(word, "[a-z]+")) %>%
+  count(candidate, word) %>%
+  rename(other = n) %>%
+  inner_join(count(words_pinera, word)) %>%
+  rename(pinera = n) %>%
+  mutate(other = other / sum(other),
+         pinera = pinera / sum(pinera)) %>%
+  ungroup()
+
+frequency_top_50 = frequency %>% 
+  group_by(candidate) %>% 
+  arrange(-other,-pinera) %>% 
+  filter(row_number() <= 50)
+
+ggplot(frequency_top_50, aes(x = other, y = pinera, color = abs(pinera - other))) +
+  geom_abline(color = "gray40") +
+  geom_jitter(alpha = 0.1, size = 2.5, width = 0.4, height = 0.4) +
+  geom_text(aes(label = word), check_overlap = TRUE, vjust = 1.5) +
+  scale_x_log10(labels = percent_format()) +
+  scale_y_log10(labels = percent_format()) +
+  scale_color_gradient(limits = c(0, 0.5), low = "darkslategray4", high = "gray75") +
+  facet_wrap(~candidate, ncol = 4) +
+  theme_minimal(base_size = 14) +
+  theme(legend.position="none") +
+  labs(title = "Comparando frecuencias",
+       subtitle = "Solo frecuencia por ahora",
+       y = "Pinera", x = NULL)
+```
+

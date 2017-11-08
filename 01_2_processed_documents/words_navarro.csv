@@ -1,4 +1,4 @@
-candidato,word
+candidate,word
 navarro,programa
 navarro,presidencial
 navarro,alejandro
@@ -36,7 +36,6 @@ navarro,sustentable
 navarro,pol
 navarro,exterior
 navarro,p
-navarro,NA
 navarro,presentaci
 navarro,demandas
 navarro,sentidas
@@ -48,13 +47,11 @@ navarro,regulatorio
 navarro,rige
 navarro,pa
 navarro,constituci
-navarro,NA
 navarro,creada
 navarro,aprobada
 navarro,plena
 navarro,dictadura
 navarro,militar
-navarro,NA
 navarro,a
 navarro,retorno
 navarro,democracia
@@ -121,7 +118,6 @@ navarro,mapuches
 navarro,pueblos
 navarro,originarios
 navarro,p
-navarro,NA
 navarro,propuesta
 navarro,central
 navarro,constituci
@@ -152,7 +148,6 @@ navarro,convocada
 navarro,plebiscito
 navarro,aprobado
 navarro,parlamento
-navarro,NA
 navarro,recibir
 navarro,encargo
 navarro,redactar
@@ -160,7 +155,6 @@ navarro,constituci
 navarro,sujeta
 navarro,aprobaci
 navarro,plebiscitaria
-navarro,NA
 navarro,constituci
 navarro,consagrar
 navarro,democr
@@ -184,7 +178,6 @@ navarro,declaraci
 navarro,universal
 navarro,derechos
 navarro,humanos
-navarro,NA
 navarro,seres
 navarro,humanos
 navarro,nacen
@@ -225,7 +218,6 @@ navarro,resida
 navarro,pueblo
 navarro,ejerce
 navarro,p
-navarro,NA
 navarro,representantes
 navarro,elegidos
 navarro,voto
@@ -342,7 +334,6 @@ navarro,cobro
 navarro,eventual
 navarro,acceso
 navarro,p
-navarro,NA
 navarro,privado
 navarro,sustentable
 navarro,consagraci
@@ -447,7 +438,6 @@ navarro,cuidado
 navarro,soberan
 navarro,componente
 navarro,p
-navarro,NA
 navarro,per
 navarro,presidencial
 navarro,a
@@ -569,7 +559,6 @@ navarro,consulta
 navarro,social
 navarro,elaboraci
 navarro,p
-navarro,NA
 navarro,constituci
 navarro,consagrar
 navarro,autonom
@@ -645,7 +634,6 @@ navarro,habitantes
 navarro,pa
 navarro,protegidos
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,reactivar
 navarro,econom
@@ -674,9 +662,7 @@ navarro,crecer
 navarro,anual
 navarro,apuntando
 navarro,anual
-navarro,NA
 navarro,creando
-navarro,NA
 navarro,mil
 navarro,empleos
 navarro,calidad
@@ -687,7 +673,6 @@ navarro,fiscal
 navarro,estructural
 navarro,superior
 navarro,pib
-navarro,NA
 navarro,evitar
 navarro,endeudamiento
 navarro,desestabilizador
@@ -699,9 +684,7 @@ navarro,tributaci
 navarro,deber
 navarro,aumentar
 navarro,pib
-navarro,NA
 navarro,nivel
-navarro,NA
 navarro,niveles
 navarro,avance
 navarro,programa
@@ -763,7 +746,6 @@ navarro,apuntando
 navarro,unir
 navarro,pa
 navarro,p
-navarro,NA
 navarro,red
 navarro,ferroviaria
 navarro,potencie
@@ -788,7 +770,6 @@ navarro,meta
 navarro,reducci
 navarro,d
 navarro,estructural
-navarro,NA
 navarro,autoridad
 navarro,econ
 navarro,coordinar
@@ -885,8 +866,6 @@ navarro,inmobiliario
 navarro,superior
 navarro,mill
 navarro,d
-navarro,NA
-navarro,NA
 navarro,anual
 navarro,unificado
 navarro,sistema
@@ -896,7 +875,6 @@ navarro,disminuir
 navarro,propiedades
 navarro,menor
 navarro,p
-navarro,NA
 navarro,personas
 navarro,bajos
 navarro,ingresos
@@ -907,9 +885,7 @@ navarro,progresiva
 navarro,volviendo
 navarro,tasa
 navarro,marginal
-navarro,NA
 navarro,vigente
-navarro,NA
 navarro,tramos
 navarro,ingresos
 navarro,altos
@@ -950,7 +926,6 @@ navarro,recursos
 navarro,disponibles
 navarro,regi
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,modelo
 navarro,econ
@@ -993,18 +968,13 @@ navarro,agenda
 navarro,desarrollo
 navarro,sustentable
 navarro,productividad
-navarro,NA
-navarro,NA
 navarro,propuestas
 navarro,program
 navarro,daremos
 navarro,fuerte
 navarro,impulso
 navarro,gasto
-navarro,NA
 navarro,pib
-navarro,NA
-navarro,NA
 navarro,actual
 navarro,focalizado
 navarro,programas
@@ -1056,7 +1026,6 @@ navarro,gas
 navarro,hidroelectricidad
 navarro,soporte
 navarro,p
-navarro,NA
 navarro,continuidad
 navarro,promoveremos
 navarro,reconversi
@@ -1073,13 +1042,11 @@ navarro,biomasa
 navarro,centrales
 navarro,h
 navarro,proyecci
-navarro,NA
 navarro,generaci
 navarro,el
 navarro,renovable
 navarro,convencional
 navarro,convencional
-navarro,NA
 navarro,chile
 navarro,vanguardia
 navarro,descarbonizaci
@@ -1183,7 +1150,6 @@ navarro,precios
 navarro,justos
 navarro,materia
 navarro,p
-navarro,NA
 navarro,electricidad
 navarro,gas
 navarro,agua
@@ -1248,7 +1214,6 @@ navarro,nacionales
 navarro,especial
 navarro,red
 navarro,patag
-navarro,NA
 navarro,garantizar
 navarro,equidad
 navarro,acceso
@@ -1270,11 +1235,9 @@ navarro,universal
 navarro,propiedad
 navarro,privada
 navarro,empresas
-navarro,NA
 navarro,reafirmaremos
 navarro,establecido
 navarro,nacionalizaci
-navarro,NA
 navarro,puso
 navarro,manos
 navarro,chilenos
@@ -1301,16 +1264,13 @@ navarro,colectividad
 navarro,sustancial
 navarro,aumento
 navarro,p
-navarro,NA
 navarro,regal
-navarro,NA
 navarro,manejado
 navarro,regiones
 navarro,base
 navarro,fondo
 navarro,compensaci
 navarro,territorial
-navarro,NA
 navarro,anularemos
 navarro,ileg
 navarro,ley
@@ -1336,7 +1296,6 @@ navarro,explotaci
 navarro,generalizada
 navarro,peligro
 navarro,colapso
-navarro,NA
 navarro,crearemos
 navarro,subsecretar
 navarro,estudios
@@ -1363,7 +1322,6 @@ navarro,dumping
 navarro,industrias
 navarro,producci
 navarro,nacional
-navarro,NA
 navarro,implementaremos
 navarro,plan
 navarro,aceleraci
@@ -1382,7 +1340,6 @@ navarro,fuentes
 navarro,tantas
 navarro,chilenas
 navarro,chilenos
-navarro,NA
 navarro,implementar
 navarro,cobro
 navarro,retroactivo
@@ -1403,7 +1360,6 @@ navarro,fondo
 navarro,aceleraci
 navarro,pymes
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,aumentar
@@ -1511,7 +1467,6 @@ navarro,contenci
 navarro,obesidad
 navarro,infantil
 navarro,p
-navarro,NA
 navarro,promoci
 navarro,alimentaci
 navarro,sana
@@ -1630,7 +1585,6 @@ navarro,migraciones
 navarro,mediremos
 navarro,l
 navarro,p
-navarro,NA
 navarro,base
 navarro,impactos
 navarro,obtenidos
@@ -1671,7 +1625,6 @@ navarro,dignifica
 navarro,sociedad
 navarro,impulsaremos
 navarro,formaci
-navarro,NA
 navarro,geriatras
 navarro,adicionales
 navarro,adultos
@@ -1680,7 +1633,6 @@ navarro,cuidados
 navarro,humanismo
 navarro,tecnolog
 navarro,disponible
-navarro,NA
 navarro,base
 navarro,crearemos
 navarro,ministerio
@@ -1704,7 +1656,6 @@ navarro,grupo
 navarro,demogr
 navarro,r
 navarro,evoluci
-navarro,NA
 navarro,instauraremos
 navarro,agencia
 navarro,nacional
@@ -1729,7 +1680,6 @@ navarro,m
 navarro,extranjeros
 navarro,debidamente
 navarro,acreditados
-navarro,NA
 navarro,otorgaremos
 navarro,papel
 navarro,protag
@@ -1758,8 +1708,6 @@ navarro,honorarios
 navarro,sistema
 navarro,salud
 navarro,p
-navarro,NA
-navarro,NA
 navarro,promoveremos
 navarro,medicina
 navarro,tradicional
@@ -1779,7 +1727,6 @@ navarro,intercultural
 navarro,atenci
 navarro,poblaciones
 navarro,migrantes
-navarro,NA
 navarro,aprobaremos
 navarro,ley
 navarro,salud
@@ -1790,7 +1737,6 @@ navarro,perspectiva
 navarro,salud
 navarro,mental
 navarro,comunitaria
-navarro,NA
 navarro,fortalecer
 navarro,estrategias
 navarro,prevenci
@@ -1801,7 +1747,6 @@ navarro,sustancias
 navarro,psicoactivas
 navarro,modificando
 navarro,ley
-navarro,NA
 navarro,tratar
 navarro,problema
 navarro,consumo
@@ -1809,7 +1754,6 @@ navarro,problem
 navarro,tema
 navarro,salud
 navarro,publica
-navarro,NA
 navarro,eliminaremos
 navarro,sistema
 navarro,autogesti
@@ -1819,7 +1763,6 @@ navarro,participaci
 navarro,gesti
 navarro,sistema
 navarro,salud
-navarro,NA
 navarro,comprometemos
 navarro,edificios
 navarro,p
@@ -1832,7 +1775,6 @@ navarro,servicios
 navarro,personas
 navarro,situaci
 navarro,discapacidad
-navarro,NA
 navarro,catastraremos
 navarro,incliuremos
 navarro,enfermedades
@@ -1840,7 +1782,6 @@ navarro,baja
 navarro,frecuencia
 navarro,garant
 navarro,salud
-navarro,NA
 navarro,crearemos
 navarro,programas
 navarro,protecci
@@ -1859,7 +1800,6 @@ navarro,sistema
 navarro,educacional
 navarro,salud
 navarro,sociedad
-navarro,NA
 navarro,garantizaremos
 navarro,acceso
 navarro,terapias
@@ -1876,7 +1816,6 @@ navarro,personas
 navarro,puedan
 navarro,concebir
 navarro,p
-navarro,NA
 navarro,modificaremos
 navarro,actual
 navarro,ley
@@ -1889,7 +1828,6 @@ navarro,evaluaci
 navarro,posterior
 navarro,adopci
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,reforma
@@ -1947,12 +1885,10 @@ navarro,infantil
 navarro,educaci
 navarro,inicial
 navarro,alcanzando
-navarro,NA
 navarro,cobertura
 navarro,ni
 navarro,a
 navarro,a
-navarro,NA
 navarro,fortaleceremos
 navarro,escuela
 navarro,p
@@ -1998,7 +1934,6 @@ navarro,intereses
 navarro,especiales
 navarro,experimentales
 navarro,p
-navarro,NA
 navarro,crear
 navarro,implementar
 navarro,programas
@@ -2115,7 +2050,6 @@ navarro,normas
 navarro,estrictas
 navarro,discriminaci
 navarro,p
-navarro,NA
 navarro,arbitraria
 navarro,obligaci
 navarro,otorgar
@@ -2143,7 +2077,6 @@ navarro,ciudadanos
 navarro,empoderados
 navarro,pensamiento
 navarro,cr
-navarro,NA
 navarro,necesita
 navarro,t
 navarro,competentes
@@ -2167,7 +2100,6 @@ navarro,institutos
 navarro,profesionales
 navarro,estatales
 navarro,provincias
-navarro,NA
 navarro,universidades
 navarro,servicio
 navarro,desarrollo
@@ -2178,17 +2110,13 @@ navarro,eval
 navarro,objetivos
 navarro,aumentar
 navarro,cobertura
-navarro,NA
 navarro,matr
-navarro,NA
 navarro,estableceremos
-navarro,NA
 navarro,gratuidad
 navarro,universal
 navarro,educaci
 navarro,superior
 navarro,p
-navarro,NA
 navarro,planes
 navarro,estudios
 navarro,universitarios
@@ -2205,7 +2133,6 @@ navarro,pensamiento
 navarro,cr
 navarro,desarrollo
 navarro,pa
-navarro,NA
 navarro,eliminar
 navarro,prueba
 navarro,selecci
@@ -2227,7 +2154,6 @@ navarro,prepararlo
 navarro,cursar
 navarro,carrera
 navarro,elecci
-navarro,NA
 navarro,crear
 navarro,centros
 navarro,educacionales
@@ -2244,7 +2170,6 @@ navarro,alto
 navarro,nivel
 navarro,chile
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,sistema
@@ -2314,7 +2239,6 @@ navarro,estimada
 navarro,futuras
 navarro,pensiones
 navarro,julio
-navarro,NA
 navarro,reemplazaremos
 navarro,sistema
 navarro,actual
@@ -2347,7 +2271,6 @@ navarro,mixtos
 navarro,diversos
 navarro,voluntarios
 navarro,p
-navarro,NA
 navarro,crearemos
 navarro,fondo
 navarro,solidario
@@ -2375,9 +2298,7 @@ navarro,sistema
 navarro,tripartito
 navarro,empleadores
 navarro,trabajadores
-navarro,NA
 navarro,estimado
-navarro,NA
 navarro,revisaremos
 navarro,estandares
 navarro,param
@@ -2394,7 +2315,6 @@ navarro,expectativas
 navarro,vida
 navarro,perspectiva
 navarro,g
-navarro,NA
 navarro,invertiremos
 navarro,recursos
 navarro,fondos
@@ -2403,7 +2323,6 @@ navarro,infraestructura
 navarro,econom
 navarro,social
 navarro,financiero
-navarro,NA
 navarro,aumentaremos
 navarro,sanciones
 navarro,empleadores
@@ -2411,7 +2330,6 @@ navarro,adeudan
 navarro,cotizaciones
 navarro,previsionales
 navarro,trabajadores
-navarro,NA
 navarro,crearemos
 navarro,instituto
 navarro,seguridad
@@ -2438,7 +2356,6 @@ navarro,presidente
 navarro,rep
 navarro,senado
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,empleos
@@ -2486,8 +2403,6 @@ navarro,jornada
 navarro,laboral
 navarro,legal
 navarro,pase
-navarro,NA
-navarro,NA
 navarro,objetivo
 navarro,fomentar
 navarro,desarrollo
@@ -2503,11 +2418,9 @@ navarro,humanas
 navarro,ocio
 navarro,vida
 navarro,familiar
-navarro,NA
 navarro,salario
 navarro,m
 navarro,alcanzar
-navarro,NA
 navarro,mil
 navarro,pesos
 navarro,programa
@@ -2543,7 +2456,6 @@ navarro,condiciones
 navarro,laborales
 navarro,capacitaci
 navarro,p
-navarro,NA
 navarro,propondremos
 navarro,previa
 navarro,concertaci
@@ -2643,7 +2555,6 @@ navarro,contrataci
 navarro,anual
 navarro,superar
 navarro,efectivamente
-navarro,NA
 navarro,servicios
 navarro,p
 navarro,pagos
@@ -2673,7 +2584,6 @@ navarro,funcionarias
 navarro,funcionarios
 navarro,intituciones
 navarro,p
-navarro,NA
 navarro,velando
 navarro,cumplimiento
 navarro,cabal
@@ -2683,7 +2593,6 @@ navarro,respetuoso
 navarro,derechos
 navarro,trabajadores
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,ciudades
@@ -2738,7 +2647,6 @@ navarro,punto
 navarro,partida
 navarro,consiste
 navarro,transferir
-navarro,NA
 navarro,regal
 navarro,explotaci
 navarro,recursos
@@ -2783,13 +2691,11 @@ navarro,exceden
 navarro,mbito
 navarro,comunal
 navarro,p
-navarro,NA
 navarro,potenciaremos
 navarro,organizaci
 navarro,vecinal
 navarro,comunal
 navarro,construyendo
-navarro,NA
 navarro,sedes
 navarro,sociales
 navarro,pa
@@ -2885,7 +2791,6 @@ navarro,tributaria
 navarro,deber
 navarro,considerar
 navarro,recaudaci
-navarro,NA
 navarro,m
 navarro,impuestos
 navarro,comunas
@@ -2917,7 +2822,6 @@ navarro,gobiernos
 navarro,regionales
 navarro,dise
 navarro,p
-navarro,NA
 navarro,planes
 navarro,transporte
 navarro,p
@@ -2957,7 +2861,6 @@ navarro,habitabilidad
 navarro,viviendas
 navarro,sociales
 navarro,dotadas
-navarro,NA
 navarro,metros
 navarro,cuadrados
 navarro,superficie
@@ -3007,7 +2910,6 @@ navarro,pymes
 navarro,constructoras
 navarro,autoconstrucci
 navarro,dirigida
-navarro,NA
 navarro,promoveremos
 navarro,creaci
 navarro,propuestas
@@ -3026,7 +2928,6 @@ navarro,pro
 navarro,com
 navarro,ciudadano
 navarro,innovador
-navarro,NA
 navarro,erradicaremos
 navarro,ciudades
 navarro,centros
@@ -3039,7 +2940,6 @@ navarro,ciudadanos
 navarro,ciudadanas
 navarro,vulnerables
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,fortalecer
@@ -3130,7 +3030,6 @@ navarro,prioridad
 navarro,instituciones
 navarro,policiales
 navarro,p
-navarro,NA
 navarro,impulsaremos
 navarro,creaci
 navarro,comit
@@ -3216,14 +3115,12 @@ navarro,atenci
 navarro,institucional
 navarro,infancia
 navarro,duplicando
-navarro,NA
 navarro,presupuesto
 navarro,actual
 navarro,rehabilitaci
 navarro,j
 navarro,infractores
 navarro,ley
-navarro,NA
 navarro,fortaleceremos
 navarro,ense
 navarro,autocuidado
@@ -3234,7 +3131,6 @@ navarro,tr
 navarro,educaci
 navarro,b
 navarro,media
-navarro,NA
 navarro,modernizaremos
 navarro,estructuras
 navarro,control
@@ -3244,8 +3140,6 @@ navarro,tecnol
 navarro,carabineros
 navarro,pdi
 navarro,p
-navarro,NA
-navarro,NA
 navarro,fortaleceremos
 navarro,rol
 navarro,coordinador
@@ -3256,7 +3150,6 @@ navarro,delito
 navarro,violencia
 navarro,regiones
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,pol
@@ -3352,7 +3245,6 @@ navarro,acceso
 navarro,gratuito
 navarro,vecinos
 navarro,p
-navarro,NA
 navarro,mejoraremos
 navarro,desempe
 navarro,t
@@ -3413,7 +3305,6 @@ navarro,fortaleceremos
 navarro,mecanismos
 navarro,creaci
 navarro,organizaciones
-navarro,NA
 navarro,proveeremos
 navarro,asistencia
 navarro,integral
@@ -3433,7 +3324,6 @@ navarro,existentes
 navarro,deportistas
 navarro,excelencia
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,equidad
 navarro,g
@@ -3522,7 +3412,6 @@ navarro,implica
 navarro,paridad
 navarro,n
 navarro,p
-navarro,NA
 navarro,hombre
 navarro,mujeres
 navarro,involucrados
@@ -3606,7 +3495,6 @@ navarro,etarios
 navarro,comunas
 navarro,chile
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,frente
 navarro,emergencias
@@ -3684,7 +3572,6 @@ navarro,red
 navarro,nacional
 navarro,materia
 navarro,p
-navarro,NA
 navarro,crear
 navarro,direcci
 navarro,nacional
@@ -3792,7 +3679,6 @@ navarro,vida
 navarro,protecci
 navarro,social
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,acceso
 navarro,mecanismo
@@ -3827,7 +3713,6 @@ navarro,principales
 navarro,operadores
 navarro,m
 navarro,poseen
-navarro,NA
 navarro,mercado
 navarro,internet
 navarro,m
@@ -3887,13 +3772,11 @@ navarro,medios
 navarro,comunicaci
 navarro,social
 navarro,p
-navarro,NA
 navarro,deber
 navarro,difundir
 navarro,programaci
 navarro,cultural
 navarro,ley
-navarro,NA
 navarro,emisi
 navarro,normas
 navarro,legales
@@ -4000,7 +3883,6 @@ navarro,expresiones
 navarro,culturales
 navarro,artes
 navarro,p
-navarro,NA
 navarro,derecho
 navarro,voto
 navarro,directorio
@@ -4083,7 +3965,6 @@ navarro,locales
 navarro,tama
 navarro,orientaciones
 navarro,program
-navarro,NA
 navarro,enviaremos
 navarro,proyecto
 navarro,ley
@@ -4107,7 +3988,6 @@ navarro,educaci
 navarro,transformarse
 navarro,espacio
 navarro,p
-navarro,NA
 navarro,encuentro
 navarro,expresiones
 navarro,art
@@ -4129,7 +4009,6 @@ navarro,emocional
 navarro,intelectual
 navarro,juventud
 navarro,infancia
-navarro,NA
 navarro,enviaremos
 navarro,proyecto
 navarro,ley
@@ -4169,11 +4048,9 @@ navarro,fijar
 navarro,medios
 navarro,recibir
 navarro,permanentemente
-navarro,NA
 navarro,ciento
 navarro,gasto
 navarro,publicidad
-navarro,NA
 navarro,daremos
 navarro,cumplimiento
 navarro,compromiso
@@ -4183,7 +4060,6 @@ navarro,rganos
 navarro,internacionales
 navarro,ginebra
 navarro,a
-navarro,NA
 navarro,establecer
 navarro,plan
 navarro,radiodifusi
@@ -4192,7 +4068,6 @@ navarro,ind
 navarro,habitan
 navarro,territorio
 navarro,chile
-navarro,NA
 navarro,erradicaremos
 navarro,forma
 navarro,penalizaci
@@ -4205,7 +4080,6 @@ navarro,injuria
 navarro,acci
 navarro,car
 navarro,civil
-navarro,NA
 navarro,pondremos
 navarro,penas
 navarro,c
@@ -4213,7 +4087,6 @@ navarro,decomiso
 navarro,equipos
 navarro,radiodifusores
 navarro,licencia
-navarro,NA
 navarro,implementaci
 navarro,televisi
 navarro,digital
@@ -4225,7 +4098,6 @@ navarro,car
 navarro,popular
 navarro,territoriales
 navarro,p
-navarro,NA
 navarro,regionales
 navarro,persigan
 navarro,fines
@@ -4234,7 +4106,6 @@ navarro,espacio
 navarro,espectro
 navarro,radioel
 navarro,p
-navarro,NA
 navarro,propuestas
 navarro,sociales
 navarro,acceso
@@ -4282,11 +4153,9 @@ navarro,reguladores
 navarro,comunales
 navarro,efectos
 navarro,art
-navarro,NA
 navarro,decreto
 navarro,fuerza
 navarro,ley
-navarro,NA
 navarro,urbanismo
 navarro,construcciones
 navarro,relaciona
@@ -4339,11 +4208,9 @@ navarro,culturales
 navarro,art
 navarro,patrimoniales
 navarro,p
-navarro,NA
 navarro,agregados
 navarro,culturales
 navarro,deber
-navarro,NA
 navarro,designar
 navarro,artistas
 navarro,gestores
@@ -4398,7 +4265,6 @@ navarro,ministerio
 navarro,relaciones
 navarro,exteriores
 navarro,comienzos
-navarro,NA
 navarro,existir
 navarro,editorial
 navarro,nacional
@@ -4468,7 +4334,6 @@ navarro,fondos
 navarro,recaudados
 navarro,circunscribe
 navarro,p
-navarro,NA
 navarro,patrimonio
 navarro,material
 navarro,inmaterial
@@ -4483,7 +4348,6 @@ navarro,artesan
 navarro,t
 navarro,dise
 navarro,lenguas
-navarro,NA
 navarro,modificar
 navarro,ley
 navarro,donaciones
@@ -4501,7 +4365,6 @@ navarro,exclusivo
 navarro,car
 navarro,art
 navarro,cultural
-navarro,NA
 navarro,fondos
 navarro,concursables
 navarro,reformular
@@ -4529,7 +4392,6 @@ navarro,principal
 navarro,exhibici
 navarro,circulaci
 navarro,artes
-navarro,NA
 navarro,pondremos
 navarro,evaluaci
 navarro,econ
@@ -4547,7 +4409,6 @@ navarro,exhibici
 navarro,circulaci
 navarro,artes
 navarro,p
-navarro,NA
 navarro,trato
 navarro,pueblos
 navarro,originarios
@@ -4568,12 +4429,10 @@ navarro,ind
 navarro,ambito
 navarro,laboral
 navarro,sueldos
-navarro,NA
 navarro,trabajador
 navarro,chileno
 navarro,ind
 navarro,mujeres
-navarro,NA
 navarro,araucan
 navarro,tierras
 navarro,mantienen
@@ -4640,7 +4499,6 @@ navarro,pueblos
 navarro,originarios
 navarro,propiedad
 navarro,p
-navarro,NA
 navarro,conservaci
 navarro,c
 navarro,aguas
@@ -4757,7 +4615,6 @@ navarro,gobernar
 navarro,habitantes
 navarro,indigenas
 navarro,p
-navarro,NA
 navarro,eliminaremos
 navarro,fondo
 navarro,tierras
@@ -4787,13 +4644,11 @@ navarro,tratados
 navarro,internacionales
 navarro,convenidos
 navarro,materia
-navarro,NA
 navarro,prohibremos
 navarro,leyes
 navarro,especiales
 navarro,antiterrorista
 navarro,ind
-navarro,NA
 navarro,garantizaremos
 navarro,irrestricta
 navarro,sujeci
@@ -4804,7 +4659,6 @@ navarro,testigos
 navarro,rostro
 navarro,juicios
 navarro,ind
-navarro,NA
 navarro,crearemos
 navarro,instancias
 navarro,fortalecer
@@ -4819,7 +4673,6 @@ navarro,ordinarios
 navarro,respetando
 navarro,derechos
 navarro,humanos
-navarro,NA
 navarro,crearemos
 navarro,fortaleceremos
 navarro,figura
@@ -4832,8 +4685,6 @@ navarro,violaciones
 navarro,derechos
 navarro,realizadas
 navarro,p
-navarro,NA
-navarro,NA
 navarro,traslademos
 navarro,basurales
 navarro,plantas
@@ -4848,7 +4699,6 @@ navarro,compensar
 navarro,econ
 navarro,comunidades
 navarro,afectadas
-navarro,NA
 navarro,instauraremos
 navarro,gratuidad
 navarro,estudiantes
@@ -4862,7 +4712,6 @@ navarro,ind
 navarro,financiamiento
 navarro,estatal
 navarro,p
-navarro,NA
 navarro,pol
 navarro,exterior
 navarro,paz
@@ -4969,7 +4818,6 @@ navarro,meta
 navarro,contener
 navarro,aumento
 navarro,p
-navarro,NA
 navarro,temperatura
 navarro,media
 navarro,global
@@ -4980,7 +4828,6 @@ navarro,preindustriales
 navarro,siglo
 navarro,esfuerzos
 navarro,supere
-navarro,NA
 navarro,grados
 navarro,cent
 navarro,cumplimiento
@@ -4990,14 +4837,11 @@ navarro,adquiridos
 navarro,chile
 navarro,incluyendo
 navarro,disminuir
-navarro,NA
-navarro,NA
 navarro,emisiones
 navarro,gases
 navarro,efecto
 navarro,invernaderos
 navarro,relaci
-navarro,NA
 navarro,abogaremos
 navarro,sistem
 navarro,integraci
@@ -5105,7 +4949,6 @@ navarro,controversias
 navarro,territoriales
 navarro,mar
 navarro,p
-navarro,NA
 navarro,per
 navarro,proyectando
 navarro,integraci
@@ -5125,7 +4968,6 @@ navarro,tribunal
 navarro,internacional
 navarro,retomaremos
 navarro,agenda
-navarro,NA
 navarro,puntos
 navarro,suspendida
 navarro,decisi

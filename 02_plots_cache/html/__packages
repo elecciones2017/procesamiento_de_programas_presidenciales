@@ -1,0 +1,14 @@
+base
+pacman
+readr
+dplyr
+tidyr
+tidytext
+ggplot2
+viridisLite
+viridis
+ggstance
+stringr
+scales
+widyr
+bindrcpp

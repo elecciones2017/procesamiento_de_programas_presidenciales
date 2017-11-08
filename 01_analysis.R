@@ -42,10 +42,11 @@ if(!file.exists("01_2_processed_documents/words_guillier.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "guillier") %>% 
+           candidate =  "guillier") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_guillier = words_guillier %>%
     count(word, sort = TRUE)
@@ -68,10 +69,11 @@ if(!file.exists("01_2_processed_documents/words_navarro.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "navarro") %>% 
+           candidate =  "navarro") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_navarro = words_navarro %>%
     count(word, sort = TRUE)
@@ -94,10 +96,11 @@ if(!file.exists("01_2_processed_documents/words_sanchez.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "sanchez") %>% 
+           candidate =  "sanchez") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_sanchez = words_sanchez %>%
     count(word, sort = TRUE)
@@ -120,10 +123,11 @@ if(!file.exists("01_2_processed_documents/words_goic.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "goic") %>% 
+           candidate =  "goic") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_goic = words_goic %>%
     count(word, sort = TRUE)
@@ -146,10 +150,11 @@ if(!file.exists("01_2_processed_documents/words_artes.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "artes") %>% 
+           candidate =  "artes") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_artes = words_artes %>%
     count(word, sort = TRUE)
@@ -172,18 +177,18 @@ if(!file.exists("01_2_processed_documents/words_enriquez.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "enriquez") %>% 
+           candidate =  "enriquez") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_enriquez = words_enriquez %>%
     count(word, sort = TRUE)
   
   write_csv(words_enriquez,"01_2_processed_documents/words_enriquez.csv")
 } else {
-  words_enriquez = read_csv("01_2_processed_documents/words_enriquez.csv") %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+  words_enriquez = read_csv("01_2_processed_documents/words_enriquez.csv")
   
   top_words_enriquez = words_enriquez %>%
     count(word, sort = TRUE)
@@ -199,10 +204,11 @@ if(!file.exists("01_2_processed_documents/words_kast.csv")) {
     tibble() %>%
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "kast") %>% 
+           candidate =  "kast") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_kast = words_kast %>%
     count(word, sort = TRUE)
@@ -243,10 +249,11 @@ if(!file.exists("01_2_processed_documents/words_pinera.csv")) {
     bind_rows() %>% 
     setNames(., "text") %>%
     mutate(text = gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", text, perl=TRUE),
-           candidato =  "pinera") %>% 
+           candidate =  "pinera") %>% 
     unnest_tokens(word, text) %>% 
     anti_join(stopwords_es) %>% 
-    mutate(word = str_extract(word, "[a-z]+"))
+    mutate(word = str_extract(word, "[a-z]+")) %>% 
+    filter(!is.na(word))
   
   top_words_pinera = words_pinera %>%
     count(word, sort = TRUE)
@@ -264,8 +271,9 @@ if(!file.exists("01_2_processed_documents/words_pinera.csv")) {
 
 words_all = mget(ls(pattern = "^words_")) %>% 
   bind_rows() %>% 
-  group_by(candidato) %>% 
+  group_by(candidate) %>% 
   count(word, sort = TRUE) %>% 
-  bind_tf_idf(word, candidato, n)
+  bind_tf_idf(word, candidate, n) %>% 
+  arrange(-tf_idf)
 
 write_csv(words_all,"01_2_processed_documents/words_all.csv")
